@@ -1,0 +1,33 @@
+textarea {
+  resize: none;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.ok {
+  display: flex;
+
+  background-color: aliceblue;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+}
+.bbtn {
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+}
+.sum {
+  text-align: center;
+  color: aliceblue;
+}
+.k {
+  padding: 5px 10px 10px 5px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.336);
+  transition: all 0.15s;
+}
+
+.k:hover {
+  transform: scale(1.1);
+}
